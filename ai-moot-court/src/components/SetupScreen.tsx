@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { JudgeStyle, Role } from "../types";
+import type{ JudgeStyle, Role } from "./types";
 
 interface Props {
   loading: boolean;

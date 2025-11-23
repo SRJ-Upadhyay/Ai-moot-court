@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { CaseData, JudgeStyle, Message, Role } from "/.types";
+import type { CaseData, JudgeStyle, Message, Role } from "./types";
+
 import TranscriptPanel from "./TranscriptPanel";
 
 interface Props {

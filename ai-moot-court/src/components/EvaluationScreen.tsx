@@ -1,5 +1,5 @@
 import React from "react";
-import { CaseData, EvaluationResponse, Message } from "../types";
+import type { CaseData, EvaluationResponse, Message } from "./types";
 import TranscriptPanel from "./TranscriptPanel";
 
 interface Props {
